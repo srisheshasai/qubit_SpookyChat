@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "client:install": "npm.cmd install --prefix client",
-    "client:build": "npm.cmd run build --prefix client",
-    "build": "npm.cmd run client:build"
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "build": "npm run client:build"
   },
   "dependencies": {
     "express": "^4.21.2",
