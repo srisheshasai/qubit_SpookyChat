@@ -1,0 +1,17 @@
+{
+  "short_name": "SpookyChat",
+  "name": "SpookyChat | Quantum Secured Messenger",
+  "description": "Quantum-Entangled Cryptographic Messenger simulating E91 and GHZ QKD protocols.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#020306",
+  "theme_color": "#00f0ff",
+  "display": "standalone",
+  "orientation": "any"
+}
